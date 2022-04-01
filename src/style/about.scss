@@ -1,0 +1,46 @@
+.about-container {
+    height: 100%;
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 20px 15px 6px rgba(0, 0, 0, 0.15);
+
+    .about-header {
+        color: ivory;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        &:hover {
+            color: rgb(52, 1, 133);
+        }
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    ul {
+        color: ivory;
+        margin: 5px;
+
+        &:hover {
+            color: rgb(52, 1, 133);
+        }
+
+        li {
+            color: ivory;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            &:hover {
+                color: rgb(52, 1, 133);
+            }
+        }
+    }
+
+
+}

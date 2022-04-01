@@ -1,0 +1,26 @@
+.ninjaCard {
+    height: 400px;
+    width: 275px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    background-color: #231f20;
+
+    .card-img {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 40px;
+        height: 190px;
+    }
+
+    .abilities {
+        text-align: center;
+        color: #b8babc;
+        align-items: center;
+    }
+
+    .name {
+        margin-top: 90px;
+        margin-left: 5px;
+        color: #b8babc;
+    }
+}

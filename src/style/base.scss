@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    background-color: #a9a9a9;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}

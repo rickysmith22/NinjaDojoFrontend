@@ -1,0 +1,40 @@
+.home-container {
+    font-family: 'Damion', cursive;
+    color: #414754;
+    font-size: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .home-img {
+
+        img {
+            height: 600px;
+        }
+    }
+    
+    
+    .login-btn {
+            font-size: 2rem;
+            background-color: #d3d3d3;
+            color: #414754;
+            border: 1px solid lightgray;
+            box-shadow: 5px 8px 6px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+    
+    .cards-btn {
+        font-size: 2rem;
+        background-color: lightgray;
+        color: #414754;
+        border: 1px solid lightgray;
+        box-shadow: 5px 8px 6px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+
+}
